@@ -1,0 +1,127 @@
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(233, 224, 224);
+}
+.navleft{
+    display: flex;
+    text-align: center;
+    padding-left: 20px;
+
+}
+.navleft h2{
+    text-align: center;
+}
+.navright{
+    padding-right: 30px;
+}
+.navlist {
+    display:flex;
+    list-style-type:none;
+    margin-left: 70px;
+}
+.navlist li{
+    margin-right: 25px;
+}
+.navlist li a{
+    text-decoration: none;
+    color: black;
+}
+.navlist li :hover{
+    transform: translateX(-20px);
+    color: rgb(248, 155, 63);
+}
+.icon-cart{
+    margin-right: 30px;
+}
+.mainimage{ 
+    width: 100;
+    height: 600px;
+    padding: 50px 50px;
+}
+.main{
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.mainleft,
+.mainright{
+    width: 40%;
+}
+.mainimage{
+    width: 100%;
+}
+.mainleft img{
+    border-radius: 15px;
+}
+
+.mainright{
+    padding: 30px 10px;
+    text-align: auto;
+}
+.mainright h3{
+    color: rgb(214, 92, 26);
+    font-size: 24px;
+    margin-bottom: 30px;
+
+}
+.mainright h1{
+    font-size: 45px;
+    font-family: serif;
+    margin-bottom: 40px;
+    padding-right: 450px;
+}
+.price{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.price h2{
+    font-size: 40px;
+    margin-right: 20px;
+}
+.price div{
+    padding: 5px;
+    background-color: rgb(237, 147, 79);
+    border-radius: 10px;
+    font-weight: 400;
+}
+.mainright h6{
+    font-size: 20px ;
+    margin-top: 10px;
+    opacity: 0.4;
+    text-decoration: line-through;
+    padding-bottom: 5px;
+}
+.btns{
+    display: flex;
+    transition: 2s;
+
+}
+/*styling quantity*/
+.quantity {
+   display: flex;
+   border-radius: 4px;
+   height: 30px;
+   width: 120px;
+   background-color:rgb(233, 223, 223);
+   justify-content: space-between;
+   align-items: center;
+  
+}
+.cart{
+    display: flex;
+    background-color: rgb(244, 114, 0);
+    border-radius: 5px;
+    align-items: center;
+    height: 30px;
+    margin-left: 40px;
+    
+}
